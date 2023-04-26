@@ -1,3 +1,29 @@
+## Goal
+
+Write a compiler that is able to process a sub-set of Rust-like features into WASM.
+
+```rust
+  func add(x: int, y: int) -> int {
+      return x + y;
+  }
+
+  func main() -> int {
+      let a: int = 5;
+      let b: int = 3;
+
+      let sum: int = add(a, b);
+
+      if sum > 7 {
+          print("The sum is greater than 7.");
+      } else {
+          print("The sum is less than or equal to 7.");
+      }
+
+      return 0;
+  }
+```
+
+
 ## Week 1: General Architecture Understanding, Language Definition, and Lexical Analysis (Tokenizing)
 
 1. Learn about the basics of compiler architecture, including the main components and their roles (lexical analysis, parsing, semantic analysis, intermediate representation, code generation, and optimization).
