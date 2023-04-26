@@ -1,4 +1,4 @@
-### Week 1: General Architecture Understanding, Language Definition, and Lexical Analysis (Tokenizing)
+## Week 1: General Architecture Understanding, Language Definition, and Lexical Analysis (Tokenizing)
 
 [] 1. Learn about the basics of compiler architecture, including the main components and their roles (lexical analysis, parsing, semantic analysis, intermediate representation, code generation, and optimization).
 
@@ -8,7 +8,7 @@
 
 [] 4. Implement a lexical analyzer (tokenizer) for your language. Write code or rules to recognize keywords, identifiers, literals, operators, and punctuation symbols specific to your language. Ensure that your tokenizer can process a source file and generate a sequence of tokens as output.
 
-### Week 2: Parsing (Syntax Analysis) and Basic Semantic Analysis
+## Week 2: Parsing (Syntax Analysis) and Basic Semantic Analysis
 
 [] 1. Learn about parsing techniques, such as recursive descent parsing and parser generators (e.g., LALR or LL). Decide which approach you want to use for your project.
 
@@ -16,7 +16,7 @@
 
 [] 3. Perform basic semantic analysis during the parsing process. This can include checking for undefined variables and type mismatches, ensuring that variables are declared before use, and enforcing basic scoping rules.
 
-### Week 3: Code Generation, Simple Interpreter, and Testing
+## Week 3: Code Generation, Simple Interpreter, and Testing
 
 [] 1. Learn about different code generation strategies, such as generating bytecode for a virtual machine, generating native code for a specific platform, or generating code in another high-level language.
 
@@ -24,4 +24,4 @@
 
 [] 3. Write test cases to validate the correctness of your compiler or interpreter. Create a set of example programs that cover various language features and edge cases. Test your implementation against these examples to identify and fix any bugs or issues.
 
-[] 4. (Optional) If time permits, start exploring simple optimizations, such as constant folding or dead code elimination, which can be applied during the code generation or interpretation process.
+[x] 4. (Optional) If time permits, start exploring simple optimizations, such as constant folding or dead code elimination, which can be applied during the code generation or interpretation process.
