@@ -2,6 +2,13 @@
 
 Write a compiler that is able to process a sub-set of Rust-like features into WASM.
 
+1. Primitive data types (e.g., integers, floating-point numbers, booleans)
+2. Variables and assignment
+3. Basic arithmetic and logical operations
+4. Control structures (e.g., if, while, for)
+5. Functions with parameters and return values
+6. Simple input/output operations
+
 ```rust
   func add(x: int, y: int) -> int {
       return x + y;
