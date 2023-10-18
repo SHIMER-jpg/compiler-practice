@@ -10,24 +10,72 @@ Write a compiler that is able to process a sub-set of Rust-like features into WA
 6. Simple input/output operations
 
 ```rust
-  func add(x: int, y: int) -> int {
-      return x + y;
-  }
+// Declare a function to calculate the factorial of a number
+function factorial(n: int): int {
+    if (n <= 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
 
-  func main() -> int {
-      let a: int = 5;
-      let b: int = 3;
+// Declare a function to calculate the sum of two numbers
+function add(a: float, b: float): float {
+    return a + b;
+}
 
-      let sum: int = add(a, b);
+// Declare a function to print a message based on a boolean value
+function printMessage(isTrue: bool) {
+    if (isTrue) {
+        print("The condition is true.");
+    } else {
+        print("The condition is false.");
+    }
+}
 
-      if sum > 7 {
-          print("The sum is greater than 7.");
-      } else {
-          print("The sum is less than or equal to 7.");
-      }
+// Main program
+function main() {
+    // Variables and assignment
+    int num1 = 5;
+    float num2 = 3.5;
+    bool flag = true;
 
-      return 0;
-  }
+    // Basic arithmetic and logical operations
+    int sum = num1 + num2;
+    int difference = num1 - num2;
+    float product = num1 * num2;
+    float quotient = num1 / num2;
+    bool isGreater = num1 > num2;
+
+    // Control structures (if, while, for)
+    if (isGreater) {
+        print("num1 is greater than num2.");
+    } else {
+        print("num1 is not greater than num2.");
+    }
+
+    int counter = 0;
+    while (counter < 3) {
+        print("Counter value: ", counter);
+        counter = counter + 1;
+    }
+
+    for (int i = 0; i < 5; i = i + 1) {
+        print("For loop iteration: ", i);
+    }
+
+    // Functions with parameters and return values
+    int fact = factorial(num1);
+    float additionResult = add(num1, num2);
+    print("Factorial of num1: ", fact);
+    print("Addition result: ", additionResult);
+
+    // Simple input/output operations
+    printMessage(flag);
+}
+
+// Call the main function
+main();
 ```
 
 
